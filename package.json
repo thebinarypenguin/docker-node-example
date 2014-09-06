@@ -1,0 +1,30 @@
+{
+  "name": "docker-node-example",
+  "description": "An example Node app which uses Docker",
+  "author": "Ethan Zimmerman <thebinarypenguin@gmail.com> (http://thebinarypenguin.com)",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/thebinarypenguin/docker-node-example"
+  },
+  "bugs": "http://github.com/thebinarypenguin/docker-node-example/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://raw.github.com/thebinarypenguin/docker-node-example/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "mocha -R spec ./test/index.test.js"
+  },
+  "dependencies": {
+    "express": "~4.8.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  }
+}

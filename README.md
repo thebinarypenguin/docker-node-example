@@ -1,4 +1,4 @@
-docker-node-example
-===================
+# Docker Node Example
 
-An example Node.js app which uses Docker
+
+An example Node app which uses Docker
