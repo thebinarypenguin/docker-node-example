@@ -20,11 +20,11 @@
     "test": "mocha -R spec ./test/index.test.js"
   },
   "dependencies": {
-    "express": "~4.8.8"
+    "express": "~4.17.1"
   },
   "devDependencies": {
-    "mocha": "~1.21.4",
-    "should": "~4.0.4",
-    "supertest": "~0.13.0"
+    "mocha": "~6.1.4",
+    "should": "~13.2.3",
+    "supertest": "~4.0.2"
   }
 }
